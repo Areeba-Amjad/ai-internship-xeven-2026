@@ -59,3 +59,26 @@ Implemented:
 Each validator returns an `(is_valid, error_message)` tuple.
 
 ## Files
+
+## Additional Topics Covered
+
+### Dunder / Magic Methods
+- Studied Python Dunder/Magic methods.
+- Implemented `__init__()`, `__str__()`, `__len__()`, and `__add__()`.
+- Understood how Python uses these special methods with built-in operations.
+
+### Functions vs Methods
+- Learned the difference between functions and methods.
+- Practiced standalone functions and object methods.
+- Compared examples such as `len()` and `append()`.
+
+### Practical Implementation
+- Created custom classes and implemented Dunder methods.
+- Created practical examples demonstrating functions and methods.
+- Tested all examples in the Jupyter Notebook.
+
+## Updated Deliverables
+
+- `Day12_Functions_and_Methods.ipynb`
+- `README.md`
+- `LEARNINGS.md`
