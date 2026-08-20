@@ -1,58 +1,100 @@
-# Day 13: Advanced Functions
+# Day 8: Lists & List Operations
+
+**AI Internship — Week 2**
+
+**Name:** Areeba Amjad
+**Date:** 18 August 2026
 
 ## Overview
 
-Day 13 focused on advanced Python functions and powerful techniques for working with collections and data.
+Day 8 focused on Python Lists and List Operations. The objective was to understand how lists are created, modified, accessed, sliced, filtered, and used in practical programming scenarios.
 
 ## Topics Covered
 
-- `*args` and `**kwargs`
-- Lambda functions
-- `map()`
-- `filter()`
-- `sorted()`
-- List comprehensions
-- Dictionary comprehensions
-- Argument unpacking
-- Performance comparison
+* Lists in Python
+* List Methods
+* List Slicing
+* Negative Indexing
+* List Comprehensions
+* When to Use Lists
+* Sorting and Filtering Lists
 
-## Practical Tasks
+## Research
 
-### Task 1: Flexible Logger Function
+Each concept was researched using:
 
-Created a flexible `log()` function using:
+* ChatGPT
+* Google Gemini
+* Claude
+* One external article
 
-- `*args` for accepting multiple messages
-- `**kwargs` for optional settings
-- Timestamp support
-- File logging
-- JSON and text output
-- Different colors for INFO, WARNING, and ERROR levels
+## Practical Implementation
 
-### Task 2: Data Transformer Suite
+### Task 1: Student Grade Manager
+
+Created a student grade management system using lists.
 
 Implemented:
 
-- Lambda with `map()` to clean and convert strings to uppercase
-- Lambda with `filter()` to identify emails, phone numbers, and URLs
-- Lambda with `sorted()` to sort dictionaries using multiple keys
-- Performance comparison between lambda, regular functions, and list comprehensions
+* Adding students
+* Removing students
+* Updating grades
+* Calculating average grade
+* Finding highest and lowest grades
+* Sorting students by grade
+* Displaying top 3 performers
+* Filtering students above a specified grade
 
-### Task 3: Advanced List and Dictionary Comprehensions
+### Task 2: Shopping Cart System
+
+Created a shopping cart system using lists.
 
 Implemented:
 
-- Flattening nested lists
-- Matrix transpose
-- Dictionary inversion
-- Word frequency counter using dictionary comprehension
+* Adding items
+* Removing items
+* Updating quantities
+* Calculating total price
+* Applying a 10% discount when the total exceeds $100
+* Generating an itemized receipt
+* Using list slicing to display the last 3 recently added items
 
-## Files
+### Task 3: Data Cleaning Pipeline
 
-- `Day13_Advanced_Functions.ipynb` — Main Jupyter Notebook
-- `README.md` — Day 13 overview and task summary
-- `LEARNINGS.md` — Key concepts and learning outcomes
+Created a data cleaning pipeline using a messy list.
+
+Implemented:
+
+* Removing `None` values
+* Removing duplicate values
+* Stripping extra whitespace
+* Normalizing letter case
+* Using list comprehensions for cleaning
+* Comparing data quality before and after cleaning
+
+## Key Python Concepts Practiced
+
+* `append()`
+* `insert()`
+* `remove()`
+* `pop()`
+* `sort()`
+* `reverse()`
+* `clear()`
+* List indexing
+* List slicing
+* Negative indexing
+* List comprehensions
+* Functions
+* Filtering
+* Sorting
 
 ## Learning Outcome
 
-By completing Day 13, I learned how to write more flexible and concise Python code using advanced functions, lambda expressions, and comprehensions.
+After completing Day 8, I can use Python lists to store, modify, organize, filter, and process data. I also understand how list methods, slicing, and list comprehensions can be applied to practical programming problems.
+
+## Files
+
+* `Day08_Lists_List_Operations.ipynb` — Research and practical implementation
+* `README.md` — Day 8 overview and task summary
+* `LEARNINGS.md` — Key learning points

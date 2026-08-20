@@ -1,65 +1,78 @@
-# Day 13 Learnings
+# Day 8: Learnings
 
-## Overview
+## What I Learned
 
-Today I learned about advanced functions in Python and how they can make code more flexible, concise, and reusable.
+Today I learned about Python Lists and their practical applications.
 
-## Key Learnings
+### 1. Lists
 
-### 1. *args
+Lists are ordered and mutable collections that can store multiple values and different data types.
 
-`*args` allows a function to accept any number of positional arguments.
+Example:
 
-It is useful when the number of inputs is not known in advance.
+```python
+numbers = [10, 20, 30, 40]
+```
 
-### 2. **kwargs
+### 2. List Methods
 
-`**kwargs` allows a function to accept any number of keyword arguments.
+I practiced commonly used list methods:
 
-It is useful for providing flexible options to functions.
+* `append()` — adds an element to the end
+* `insert()` — adds an element at a specific position
+* `remove()` — removes a specific element
+* `pop()` — removes an element by index
+* `sort()` — sorts the list
+* `reverse()` — reverses the list
+* `clear()` — removes all elements
 
-### 3. Lambda Functions
+### 3. List Slicing
 
-Lambda functions are small anonymous functions written using the `lambda` keyword.
+List slicing allows specific portions of a list to be accessed.
 
-I learned how to use lambda functions with:
+```python
+numbers[:3]
+numbers[2:5]
+numbers[-3:]
+numbers[::2]
+```
 
-- `map()`
-- `filter()`
-- `sorted()`
+I learned that the start index is included while the end index is excluded.
 
 ### 4. List Comprehensions
 
-List comprehensions provide a concise way to create lists.
+List comprehensions provide a concise way to create and filter lists.
 
-I used them for:
+```python
+squares = [x ** 2 for x in range(10)]
+```
 
-- Flattening nested lists
-- Filtering data
-- Transforming values
-- Matrix transpose
+They can also be used with conditions.
 
-### 5. Dictionary Comprehensions
+### 5. Practical Applications
 
-Dictionary comprehensions provide a concise way to create dictionaries.
+I applied lists to three practical projects:
 
-I used dictionary comprehensions to:
+* Student Grade Manager
+* Shopping Cart System
+* Data Cleaning Pipeline
 
-- Invert a dictionary
-- Create a word frequency counter
+These tasks helped me understand how lists can be used in real-world programming and data-processing problems.
 
-### 6. Performance Comparison
+## Key Takeaways
 
-I compared different approaches using `timeit`.
+* Lists are ordered and mutable.
+* Lists can store different data types.
+* List methods make data manipulation easier.
+* Slicing is useful for accessing portions of lists.
+* List comprehensions make transformations and filtering concise.
+* Lists are useful for sequential and ordered data.
+* List operations are important for data processing and cleaning.
 
-The comparison included:
+## Challenges
 
-- Lambda with `map()`
-- Regular function with `map()`
-- List comprehension
-
-I learned that performance can vary depending on the operation and Python environment, and that readability should also be considered when choosing an approach.
+While implementing the tasks, I practiced working with multiple lists, functions, indexing, slicing, sorting, filtering, and list comprehensions.
 
 ## Final Learning
 
-Day 13 helped me understand how advanced Python functions and comprehensions can reduce unnecessary code while making programs more flexible and efficient.
+Day 8 improved my understanding of Python data structures and gave me practical experience using lists to solve programming problems.
