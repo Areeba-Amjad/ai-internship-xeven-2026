@@ -41,5 +41,7 @@ The pipe operator `|` is used to connect components.
 
 Example:
 
-```python
-chain = prompt | model | output_parser
+prompt = PromptTemplate(
+    input_variables=["topic"],
+    template="Explain {topic} in simple words."
+)
