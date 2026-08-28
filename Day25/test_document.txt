@@ -1,0 +1,9 @@
+Artificial Intelligence is a field of computer science that focuses on creating systems that can perform tasks that normally require human intelligence.
+
+Machine learning is a subset of artificial intelligence. It allows computers to learn patterns from data and make predictions without being explicitly programmed for every task.
+
+Retrieval Augmented Generation, also called RAG, combines information retrieval with large language models. A RAG system retrieves relevant documents and provides them to the language model as context before generating an answer.
+
+Vector databases store numerical representations called embeddings. FAISS is a library that can perform efficient similarity search over vectors.
+
+BM25 is a keyword-based information retrieval algorithm. Hybrid search combines semantic search with keyword search to improve retrieval quality.
